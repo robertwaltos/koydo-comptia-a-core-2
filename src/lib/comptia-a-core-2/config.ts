@@ -1,0 +1,45 @@
+// CompTIA A+ Core 2 Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM152",
+  slug: "comptia-a-core-2",
+  name: "CompTIA A+ Core 2",
+  fullName: "220-1102",
+  alias: "220-1102",
+  family: "CompTIA A+",
+  category: "Professional certification",
+  subcategory: "IT support",
+  country: "Global",
+  region: "Global",
+  languages: ["English + localizations"],
+  estimatedAnnualTakers: "high",
+  testingWindow: "Year-round",
+  schedulePattern: "Continuous",
+  ageGroup: "18-35",
+  targetUser: "Entry IT learner",
+  delivery: "Computer-based",
+  questionTypes: ["MCQ + PBQ"],
+  adaptivity: "Mixed",
+  sections: "Up to 90 questions",
+  scoringMode: "Scaled/pass",
+  essayOrSpeaking: "No",
+  ipRisk: "Medium",
+  contentReuse: "it_support",
+  uiEngine: "objective_plus_performance",
+  monetizationPotential: "Medium",
+  tier: "Tier 5",
+  launchWave: "Wave 7",
+  themeColor: "#7C3AED",
+  themeColorDark: "#6D28D9",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
